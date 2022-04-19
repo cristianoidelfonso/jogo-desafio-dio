@@ -170,7 +170,7 @@ function start() {
       
     if (posicaoX <= 0) {
       posicaoY = parseInt(Math.random() * 350);
-      $("#inimigo1").css("left",720);
+      $("#inimigo1").css("left",'85%');
       $("#inimigo1").css("top",posicaoY);
         
     }
@@ -180,10 +180,10 @@ function start() {
   // função que move o inimigo 2
   function moveinimigo2() {
     posicaoX = parseInt($("#inimigo2").css("left"));
-    $("#inimigo2").css("left",posicaoX - 3);
+    $("#inimigo2").css("left",posicaoX - 5);
     
     if (posicaoX <= 0) {
-      $("#inimigo2").css("left",775);
+      $("#inimigo2").css("left",'85%');
     }
   } // Fim da função moveinimigo2()
 
